@@ -49,9 +49,9 @@ static deferred_token my_token;
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_WIN] = LAYOUT(
-    KC_TAB        ,KC_Y   ,KC_R   ,KC_O    ,KC_U   ,KC_COMM, C(KC_X)  , C(KC_Z) ,KC_DOT ,KC_BSPC,KC_L   ,KC_F   ,KC_P    ,KC_QUOT , 
-    CTL_T(KC_ESC) ,KC_D   ,KC_S   ,KC_A    ,KC_I   ,KC_G   , C(KC_C)  , C(KC_S) ,KC_J   ,KC_E   ,KC_H   ,KC_T   ,KC_K    ,KC_SCLN , 
-    KC_LSFT       ,KC_V   ,KC_Z   ,KC_X    ,KC_M   ,KC_C   , C(KC_V)  , C(KC_Y) ,KC_N   ,KC_W   ,KC_B   ,KC_Q   ,KC_SLSH ,KC_RSFT   , 
+    KC_TAB        ,KC_K   ,KC_D   ,KC_N    ,KC_F   ,KC_Q   , G(KC_X)  , G(KC_Z) ,KC_J   ,KC_BSPC,KC_R   ,KC_U   ,KC_P    ,KC_QUOT , \
+    CMD_T(KC_ESC) ,KC_W   ,KC_I   ,KC_S    ,KC_A   ,KC_G   , G(KC_C)  , G(KC_S) ,KC_Y   ,KC_E   ,KC_T   ,KC_H   ,KC_B    ,KC_SCLN , \
+    KC_LSFT       ,KC_Z   ,KC_X   ,KC_V    ,KC_C   ,KC_L   , PASTE    , G(KC_Y) ,KC_M   ,KC_O   ,KC_COMM,KC_DOT ,KC_SLSH ,KC_RSFT , \
     KC_LCTL       ,KC_LALT,KC_LWIN,KC_LCTL,MO(_LOWER),LSFT_T(KC_SPC)  ,LSFT_T(KC_ENT)   ,MO(_RAISE),KC_LEFT,KC_DOWN,KC_UP,KC_RGHT
     ),
 
